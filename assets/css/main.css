@@ -1985,7 +1985,7 @@
 /* Image */
 
 	.image {
-		border-radius: 5px;
+		border-radius: 50px;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -2015,19 +2015,21 @@
 		}
 
 			.image.fit img {
-				display: block;
+				height: auto;
 				width: 100%;
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			height: auto;
+            width: auto;
 			overflow: hidden;
 		}
 
 			.image.avatar img {
-				border-radius: 100%;
+				height: auto;
+                width: auto;
 				display: block;
-				width: 100%;
+				width: 75%;
 			}
 
 /* List */
@@ -2106,6 +2108,7 @@
 				}
 
 		ul.icons {
+            
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
@@ -2121,7 +2124,7 @@
 				}
 
 				ul.icons li .icon:before {
-					font-size: 1.25em;
+					font-size: 2.50em;
 				}
 
 		ul.actions {
