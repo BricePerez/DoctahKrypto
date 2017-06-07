@@ -2608,7 +2608,6 @@
 		background-size: cover;
 		content: '';
 		display: block;
-		margin: 0 auto;
 		height: 15em;
 		width: 100%;
 	}
