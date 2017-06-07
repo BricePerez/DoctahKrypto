@@ -2602,12 +2602,13 @@
 /* One */
 
 	#one:before {
-		background-image: url("../../images/pills_big.jpg");
+		background-image: url("../../images/DoctahKryptosKryptoClinic08.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
 		display: block;
+		margin: 0 auto;
 		height: 15em;
 		width: 100%;
 	}
